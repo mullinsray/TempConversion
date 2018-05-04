@@ -17,16 +17,16 @@ public class TempConversion {
      */
     public static void main(String[] args) {
         // declare variables
-        double tempCelcius, tempFahrenheit;
+        double celsiusTemp, fahrenheitTemp;
         //set up input from keyboard
         Scanner keyboard=new Scanner(System.in);
         //prompt user for temp in celcius
         System.out.print("Enter Temperature in Celcius: ");
-        tempCelcius = keyboard.nextDouble();
+        celsiusTemp = keyboard.nextDouble();
         //convert to fahrenhiet
-        tempFahrenheit = (9.0/5.0)*tempCelcius + 32;
+        fahrenheitTemp = (9.0/5.0)*celsiusTemp + 32;
         //print to screen conversion
-        System.out.println("\n"+tempCelcius+" degrees Celsius is " + tempFahrenheit + " degrees Fahrenheit.");
+        System.out.println("\n"+celsiusTemp+" degrees Celsius is " + fahrenheitTemp + " degrees Fahrenheit.");
     }
     
 }
